@@ -641,6 +641,12 @@ MonoBehaviour:
   deathFX: {fileID: 4872785410456586773, guid: 622d70d3dfd515f4084d9dca6c2638be, type: 3}
   pointsWorth: 28
   parent: {fileID: 0}
+--- !u!1 &1860845924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1550057746, guid: 36cbe8b8b1f849a43a0f8478bb1c79bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 4153400852442733135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &425921217781864796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -889,6 +895,22 @@ PrefabInstance:
     - target: {fileID: 4153400852064077008, guid: 36cbe8b8b1f849a43a0f8478bb1c79bb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877881873, guid: 36cbe8b8b1f849a43a0f8478bb1c79bb, type: 3}
+      propertyPath: weapon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 877881873, guid: 36cbe8b8b1f849a43a0f8478bb1c79bb, type: 3}
+      propertyPath: weapon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1860845924}
+    - target: {fileID: 877881873, guid: 36cbe8b8b1f849a43a0f8478bb1c79bb, type: 3}
+      propertyPath: controlRollFactor
+      value: -16.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550057746, guid: 36cbe8b8b1f849a43a0f8478bb1c79bb, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
